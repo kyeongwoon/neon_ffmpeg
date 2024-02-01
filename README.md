@@ -31,7 +31,7 @@ This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo
 **Open media file using ffmpeg**
 ```javascript
 import { createRequire } from 'module';
-const AV = createRequire(import.meta.url)('./neon_ffmpeg/index.node')
+const AV = createRequire(import.meta.url)('./neon_ffmpeg.node')
 
 const ic = AV.avformat_open_input(path);
 //AV.av_dump_format(ic, path)
