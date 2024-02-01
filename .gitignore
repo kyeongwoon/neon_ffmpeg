@@ -13,5 +13,6 @@ package-lock.json
 **/build
 
 index.node
+neon_ffmpeg.node
 **/node_modules
 **/.DS_Store
