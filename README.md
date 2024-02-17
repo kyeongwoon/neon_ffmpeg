@@ -11,6 +11,8 @@ Installing neon_al requires a [supported version of Node and Rust](https://githu
 You can install the project with npm. In the project directory, run:
 
 ```sh
+$ git clone https://github.com/kyeongwoon/neon_ffmpeg
+$ cd neon_ffmpeg
 $ npm install
 ```
 
@@ -24,7 +26,7 @@ If you have already installed the project and only want to run the build, run:
 $ npm run build
 ```
 
-This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo-cp-artifact) utility to run the Rust build and copy the built library into `./index.node`.
+This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo-cp-artifact) utility to run the Rust build and copy the built library into `./neon_ffmpeg.node`.
 
 ## Usage
 
